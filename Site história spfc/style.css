@@ -1,0 +1,48 @@
+body {
+    background: white;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.titulos-50,
+.elenco-50,
+.filme {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.elenco-50 {
+    width: 30%;
+    float: right;
+    padding: 15px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
